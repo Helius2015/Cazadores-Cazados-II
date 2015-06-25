@@ -14,9 +14,9 @@
         <label>Concepto:</label><input type="text" name="attr_Concepto" />
     </div>
     <div class="sheet-col">
-        <label>Clan:</label><input type="text" name="attr_Clan" />
-        <label>Generación:</label><input type="text" name="attr_Generacion" />
-        <label>Sire:</label><input type="text" name="attr_Sire" />
+        <label>Edad:</label><input type="text" name="attr_Clan" />
+        <label>Sexo:</label><input type="text" name="attr_Generacion" />
+        <label>Residencia:</label><input type="text" name="attr_Sire" />
     </div>
 </div>
 
@@ -1164,7 +1164,7 @@
 			<span></span>
         </div>
     </div>
-    <br><br><br><br>
+    <br><br><br><br><br>
      <h3 align="center">Reserva de Dados</h3>
     <div align="left" style="margin:0px 0px 0px 40px"><b >Atributo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Habilidad</b ></div>
         <div align="left">
@@ -1804,6 +1804,9 @@
                 <button type='roll' name='roll_DP3roll' value='Dice Pool 3\n/r {(@{DPAtt11}+@{DPAbi11}+?{Modificador de la reserva|0})d10}>?{Dificultad|6}f1'></button>
             </div>
         </div>
+        <br>
+    <h3 align="center">Méritos</h3>
+    <textarea name="attr_meritos" style="width:260px; height:50px"></textarea>        
 </div>    
 </div>
 
@@ -1876,7 +1879,7 @@
 	<span></span>
         <button type='roll' name='roll_feroll' value='Reserva de dados 5\n/r {(@{fe}+?{Modificador de la reserva|0})d10}>?{Difficulty|6}f1'></button>
     </div>
-    <br><br><br><br>
+    <br><br><br><br><br>
 	
      <h3 align="center">Reserva de Dados</h3>
     <div align="left" style="margin:0px 0px 0px 40px"><b >Atributo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Habilidad</b ></div>
@@ -2524,6 +2527,9 @@
     <div class="sheet-row" align="center">
         <input type="text" name="attr_Experience" style="width:245px; high:50px"/>
     </div>        
+    <br>
+     <h3 align="center">Notas</h3>
+    <textarea name="attr_notes" style="width:260px; height:120px"></textarea>
 </div>
 
 <div class="sheet-col" style="width:270px">
@@ -3240,12 +3246,7 @@
             </div>
         </div>
         <br>
-    <h3 align="center">Méritos</h3>
-    <textarea name="attr_meritos" style="width:260px; height:50px"></textarea>
     <h3 align="center">Defectos</h3>
     <textarea name="attr_flaws" style="width:260px; height:50px"></textarea>
-    <br>
-     <h3 align="center">Notas</h3>
-    <textarea name="attr_notes" style="width:260px; height:120px"></textarea>
 </div>
 </div>
